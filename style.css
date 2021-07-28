@@ -13,6 +13,9 @@
 .brand-bg{
     background-color: #E76F51;
 }
+.bottom-border{
+    border-bottom: 1px solid #E76F51;
+}
 .fs-14{
     font-size: 14px;
 }
@@ -22,4 +25,9 @@
 }
 .w-logo{
     width: 100px;
+}
+
+/* feature bikes css */
+.bike-gray{
+    filter: grayscale(100%);
 }

@@ -52,7 +52,29 @@
                         <p class="fw-light fs-14">Computer-controlled digital transistorized with electronic advance</p>
                         <h1 class="fw-bold">Honda CBR 300R</h1>
                         <p class="fw-light">Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit<br>mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn brand-bg text-white px-4 py-2">Purchase</button>
+                        <button class="btn brand-bg text-white px-4 py-2"  data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="exampleModalLabel">Select Payment Method:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body fs-3">
+                                    <a href="#"><i class="fab fa-amazon-pay text-danger"></i></a>
+                                    <a href="#"><i class="fas fa-credit-card text-danger"></i></a>
+                                    <a href="#"><i class="fab fa-cc-mastercard text-danger"></i></a>
+                                    <a href="#"><i class="fab fa-cc-visa text-danger"></i></a>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Go Next</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col d-md-flex justify-content-md-center">
@@ -62,10 +84,43 @@
         </section>
         <!-- banner section end -->
     </header>
+    <!-- header section end -->
 
+    <!-- main body start -->
     <main>
+        <section class="container mx-auto my-5">
+            <div class="text-center">
+                <h1 class="fw-bold text-dark">Fetured Bikes 2021</h1>
+                <small class="bottom-border brand-color">Best bike collection</small>
+            </div>
 
+            <!-- featured bikes card -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-5">
+                <div class="col">
+                  <div class="card h-100 border-0">
+                      <div class="d-flex justify-content-center">
+                        <img class="w-75 bike-gray" src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <div class="d-flex justify-content-center">
+                        <img class="w-75" src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <div class="d-flex justify-content-center">
+                        <img class="w-75 bike-gray" src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
+    <!-- main body end -->
 
     <footer>
 
