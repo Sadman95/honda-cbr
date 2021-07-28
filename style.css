@@ -13,7 +13,9 @@
 .brand-bg{
     background-color: #E76F51;
 }
-
+.fs-14{
+    font-size: 14px;
+}
 /* header css */
 .bg-header{
     background-color: #264653;
