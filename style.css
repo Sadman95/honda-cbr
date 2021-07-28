@@ -13,6 +13,9 @@
 .brand-bg{
     background-color: #E76F51;
 }
+.full-border{
+    border: 1px solid #E76F51;
+}
 .bottom-border{
     border-bottom: 1px solid #E76F51;
 }
@@ -30,4 +33,13 @@
 /* feature bikes css */
 .bike-gray{
     filter: grayscale(100%);
+}
+
+/* news section css */
+.btn-hover{
+    transition: all 0.3s ease-in;
+}
+.btn-hover:hover{
+    background-color: #E76F51;
+    color: white;
 }
