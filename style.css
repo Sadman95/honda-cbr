@@ -43,3 +43,11 @@
     background-color: #E76F51;
     color: white;
 }
+
+/* contact css */
+#contact{
+    background: url(./images/contact-bg.jpg) left top no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
