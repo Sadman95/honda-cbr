@@ -1,6 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;500;600&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 .primary-font{
     font-family: 'Poppins', sans-serif;;
 }
@@ -50,4 +53,12 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+/* go top */
+.fa-hand-point-up{
+    color: #264653;
+    font-size: 32px;
+    right: 20px;
+    bottom: 20px;
 }
