@@ -23,7 +23,7 @@
     font-size: 14px;
 }
 /* header css */
-.bg-header{
+.bg-header,.bg-nav{
     background-color: #264653;
 }
 .w-logo{
